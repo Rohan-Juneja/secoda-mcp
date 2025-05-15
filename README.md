@@ -34,10 +34,7 @@ Secoda MCP is a custom server built with FastMCP that provides access to Secoda'
 2. Install dependencies:
    ```bash
    # Install runtime dependencies
-   pip install -r requirements.txt
-   
-   # For development, install additional dependencies
-   pip install -r requirements.txt[dev]
+   python -m pip install -r requirements.txt
    ```
 
 ### Environment Variables

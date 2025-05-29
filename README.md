@@ -86,16 +86,18 @@ To integrate Secoda MCP with Claude Desktop, add the following to your Claude De
 
 ```json
 {
- "secoda-mcp": {
-   "command": "python",
-   "args": [
-     "/path/to/secoda-mcp/server.py"
-   ],
-   "env": {
-     "API_TOKEN": "your-api-token",
-     "API_URL": "https://app.secoda.co/api/v1/"
-   }
- }
+    "mcpServers": {
+        "secoda-mcp": {
+            "command": "python",
+            "args": [
+                "/path/to/secoda-mcp/server.py"
+            ],
+            "env": {
+                "API_TOKEN": "your-api-token",
+                "API_URL": "https://app.secoda.co/api/v1/"
+            }
+        }
+    }
 }
 ```
 

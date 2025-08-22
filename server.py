@@ -9,7 +9,7 @@ from prompt import MCP_PROMPT
 # Configuration
 # --------------------------------
 
-API_URL = os.getenv("API_URL", "https://app.secoda.co/api/v1/")
+API_URL = os.getenv("API_URL", "https://6sense.secoda.co/api/v1/")
 API_TOKEN = os.getenv("API_TOKEN")
 
 
